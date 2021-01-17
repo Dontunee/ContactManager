@@ -1,0 +1,8 @@
+C:\Users\afolabiba\source\repos\ContactManager\ContactManager.DataStructures\bin\Debug\netcoreapp3.1\ContactManager.DataStructures.deps.json
+C:\Users\afolabiba\source\repos\ContactManager\ContactManager.DataStructures\bin\Debug\netcoreapp3.1\ContactManager.DataStructures.dll
+C:\Users\afolabiba\source\repos\ContactManager\ContactManager.DataStructures\bin\Debug\netcoreapp3.1\ContactManager.DataStructures.pdb
+C:\Users\afolabiba\source\repos\ContactManager\ContactManager.DataStructures\obj\Debug\netcoreapp3.1\ContactManager.DataStructures.csprojAssemblyReference.cache
+C:\Users\afolabiba\source\repos\ContactManager\ContactManager.DataStructures\obj\Debug\netcoreapp3.1\ContactManager.DataStructures.AssemblyInfoInputs.cache
+C:\Users\afolabiba\source\repos\ContactManager\ContactManager.DataStructures\obj\Debug\netcoreapp3.1\ContactManager.DataStructures.AssemblyInfo.cs
+C:\Users\afolabiba\source\repos\ContactManager\ContactManager.DataStructures\obj\Debug\netcoreapp3.1\ContactManager.DataStructures.dll
+C:\Users\afolabiba\source\repos\ContactManager\ContactManager.DataStructures\obj\Debug\netcoreapp3.1\ContactManager.DataStructures.pdb
