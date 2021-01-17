@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\afolabiba\\Documents\\GitHub\\ContactManager\\ContactManager\\ContactManager.csproj": {}
+    "C:\\Users\\afolabiba\\Documents\\GitHub\\ContactManagerApplication\\ContactManager\\ContactManager\\ContactManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\afolabiba\\Documents\\GitHub\\ContactManager\\ContactManager.DataStructures\\ContactManager.DataStructures.csproj": {
+    "C:\\Users\\afolabiba\\Documents\\GitHub\\ContactManagerApplication\\ContactManager\\ContactManager.DataStructures\\ContactManager.DataStructures.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\afolabiba\\Documents\\GitHub\\ContactManager\\ContactManager.DataStructures\\ContactManager.DataStructures.csproj",
+        "projectUniqueName": "C:\\Users\\afolabiba\\Documents\\GitHub\\ContactManagerApplication\\ContactManager\\ContactManager.DataStructures\\ContactManager.DataStructures.csproj",
         "projectName": "ContactManager.DataStructures",
-        "projectPath": "C:\\Users\\afolabiba\\Documents\\GitHub\\ContactManager\\ContactManager.DataStructures\\ContactManager.DataStructures.csproj",
+        "projectPath": "C:\\Users\\afolabiba\\Documents\\GitHub\\ContactManagerApplication\\ContactManager\\ContactManager.DataStructures\\ContactManager.DataStructures.csproj",
         "packagesPath": "C:\\Users\\afolabiba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\afolabiba\\Documents\\GitHub\\ContactManager\\ContactManager.DataStructures\\obj\\",
+        "outputPath": "C:\\Users\\afolabiba\\Documents\\GitHub\\ContactManagerApplication\\ContactManager\\ContactManager.DataStructures\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\afolabiba\\Documents\\GitHub\\ContactManager\\ContactManager\\ContactManager.csproj": {
+    "C:\\Users\\afolabiba\\Documents\\GitHub\\ContactManagerApplication\\ContactManager\\ContactManager\\ContactManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\afolabiba\\Documents\\GitHub\\ContactManager\\ContactManager\\ContactManager.csproj",
+        "projectUniqueName": "C:\\Users\\afolabiba\\Documents\\GitHub\\ContactManagerApplication\\ContactManager\\ContactManager\\ContactManager.csproj",
         "projectName": "ContactManager",
-        "projectPath": "C:\\Users\\afolabiba\\Documents\\GitHub\\ContactManager\\ContactManager\\ContactManager.csproj",
+        "projectPath": "C:\\Users\\afolabiba\\Documents\\GitHub\\ContactManagerApplication\\ContactManager\\ContactManager\\ContactManager.csproj",
         "packagesPath": "C:\\Users\\afolabiba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\afolabiba\\Documents\\GitHub\\ContactManager\\ContactManager\\obj\\",
+        "outputPath": "C:\\Users\\afolabiba\\Documents\\GitHub\\ContactManagerApplication\\ContactManager\\ContactManager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -91,8 +91,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\afolabiba\\Documents\\GitHub\\ContactManager\\ContactManager.DataStructures\\ContactManager.DataStructures.csproj": {
-                "projectPath": "C:\\Users\\afolabiba\\Documents\\GitHub\\ContactManager\\ContactManager.DataStructures\\ContactManager.DataStructures.csproj"
+              "C:\\Users\\afolabiba\\Documents\\GitHub\\ContactManagerApplication\\ContactManager\\ContactManager.DataStructures\\ContactManager.DataStructures.csproj": {
+                "projectPath": "C:\\Users\\afolabiba\\Documents\\GitHub\\ContactManagerApplication\\ContactManager\\ContactManager.DataStructures\\ContactManager.DataStructures.csproj"
               }
             }
           }
