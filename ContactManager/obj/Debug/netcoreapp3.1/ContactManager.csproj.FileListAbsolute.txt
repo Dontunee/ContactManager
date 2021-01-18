@@ -12,3 +12,17 @@ C:\Users\afolabiba\source\repos\ContactManager\ContactManager\obj\Debug\netcorea
 C:\Users\afolabiba\source\repos\ContactManager\ContactManager\obj\Debug\netcoreapp3.1\ContactManager.csproj.CopyComplete
 C:\Users\afolabiba\source\repos\ContactManager\ContactManager\obj\Debug\netcoreapp3.1\ContactManager.dll
 C:\Users\afolabiba\source\repos\ContactManager\ContactManager\obj\Debug\netcoreapp3.1\ContactManager.pdb
+C:\Users\afolabiba\Documents\GitHub\ContactManagerApplication\ContactManager\ContactManager\bin\Debug\netcoreapp3.1\ContactManager.exe
+C:\Users\afolabiba\Documents\GitHub\ContactManagerApplication\ContactManager\ContactManager\bin\Debug\netcoreapp3.1\ContactManager.deps.json
+C:\Users\afolabiba\Documents\GitHub\ContactManagerApplication\ContactManager\ContactManager\bin\Debug\netcoreapp3.1\ContactManager.runtimeconfig.json
+C:\Users\afolabiba\Documents\GitHub\ContactManagerApplication\ContactManager\ContactManager\bin\Debug\netcoreapp3.1\ContactManager.runtimeconfig.dev.json
+C:\Users\afolabiba\Documents\GitHub\ContactManagerApplication\ContactManager\ContactManager\bin\Debug\netcoreapp3.1\ContactManager.dll
+C:\Users\afolabiba\Documents\GitHub\ContactManagerApplication\ContactManager\ContactManager\bin\Debug\netcoreapp3.1\ContactManager.pdb
+C:\Users\afolabiba\Documents\GitHub\ContactManagerApplication\ContactManager\ContactManager\bin\Debug\netcoreapp3.1\ContactManager.DataStructures.dll
+C:\Users\afolabiba\Documents\GitHub\ContactManagerApplication\ContactManager\ContactManager\bin\Debug\netcoreapp3.1\ContactManager.DataStructures.pdb
+C:\Users\afolabiba\Documents\GitHub\ContactManagerApplication\ContactManager\ContactManager\obj\Debug\netcoreapp3.1\ContactManager.csprojAssemblyReference.cache
+C:\Users\afolabiba\Documents\GitHub\ContactManagerApplication\ContactManager\ContactManager\obj\Debug\netcoreapp3.1\ContactManager.AssemblyInfoInputs.cache
+C:\Users\afolabiba\Documents\GitHub\ContactManagerApplication\ContactManager\ContactManager\obj\Debug\netcoreapp3.1\ContactManager.AssemblyInfo.cs
+C:\Users\afolabiba\Documents\GitHub\ContactManagerApplication\ContactManager\ContactManager\obj\Debug\netcoreapp3.1\ContactManager.csproj.CopyComplete
+C:\Users\afolabiba\Documents\GitHub\ContactManagerApplication\ContactManager\ContactManager\obj\Debug\netcoreapp3.1\ContactManager.dll
+C:\Users\afolabiba\Documents\GitHub\ContactManagerApplication\ContactManager\ContactManager\obj\Debug\netcoreapp3.1\ContactManager.pdb

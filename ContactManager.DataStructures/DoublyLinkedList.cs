@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 
 namespace ContactManager.DataStructures
 {
@@ -59,7 +60,7 @@ namespace ContactManager.DataStructures
         /// Adds a node value  to become the head of the list (Beginning of the list)
         /// </summary>
         /// <param name="value"></param>
-        public void AddHead(T value)
+        public void AddHead([NotNull] T value)
         {
             //Create a new node with a null previousNode and the current Head as nextNode if it exists
             DoublyLinkedListNode<T> newNode = new DoublyLinkedListNode<T>(value, null, Head);
@@ -79,7 +80,11 @@ namespace ContactManager.DataStructures
             Count++;
         }
 
-        public void AddTail(T value)
+        /// <summary>
+        /// Adds a node value  to become the Tail of the list (End of the list)
+        /// </summary>
+        /// <param name="value"></param>
+        public void AddTail([NotNull] T value)
         {
             if (Tail == null)
             {
@@ -94,6 +99,26 @@ namespace ContactManager.DataStructures
                 Count++;
             }
         }
+
+        public DoublyLinkedListNode<T> Find([NotNull] T value)
+        {
+            DoublyLinkedListNode<T> getCurrentHead = Head;
+
+            while(getCurrentHead != null)
+            {
+                if(getCurrentHead.nodeValue.Equals(value))
+                {
+                    return getCurrentHead;
+                }
+                else
+                {
+                    getCurrentHead = getCurrentHead.nextNode;
+                }
+            }
+
+            return null;
+        }
+
 
         public void Clear()
         {

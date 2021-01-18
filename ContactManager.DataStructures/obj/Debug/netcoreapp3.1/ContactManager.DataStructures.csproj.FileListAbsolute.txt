@@ -6,3 +6,10 @@ C:\Users\afolabiba\source\repos\ContactManager\ContactManager.DataStructures\obj
 C:\Users\afolabiba\source\repos\ContactManager\ContactManager.DataStructures\obj\Debug\netcoreapp3.1\ContactManager.DataStructures.AssemblyInfo.cs
 C:\Users\afolabiba\source\repos\ContactManager\ContactManager.DataStructures\obj\Debug\netcoreapp3.1\ContactManager.DataStructures.dll
 C:\Users\afolabiba\source\repos\ContactManager\ContactManager.DataStructures\obj\Debug\netcoreapp3.1\ContactManager.DataStructures.pdb
+C:\Users\afolabiba\Documents\GitHub\ContactManagerApplication\ContactManager\ContactManager.DataStructures\bin\Debug\netcoreapp3.1\ContactManager.DataStructures.deps.json
+C:\Users\afolabiba\Documents\GitHub\ContactManagerApplication\ContactManager\ContactManager.DataStructures\bin\Debug\netcoreapp3.1\ContactManager.DataStructures.dll
+C:\Users\afolabiba\Documents\GitHub\ContactManagerApplication\ContactManager\ContactManager.DataStructures\bin\Debug\netcoreapp3.1\ContactManager.DataStructures.pdb
+C:\Users\afolabiba\Documents\GitHub\ContactManagerApplication\ContactManager\ContactManager.DataStructures\obj\Debug\netcoreapp3.1\ContactManager.DataStructures.AssemblyInfoInputs.cache
+C:\Users\afolabiba\Documents\GitHub\ContactManagerApplication\ContactManager\ContactManager.DataStructures\obj\Debug\netcoreapp3.1\ContactManager.DataStructures.AssemblyInfo.cs
+C:\Users\afolabiba\Documents\GitHub\ContactManagerApplication\ContactManager\ContactManager.DataStructures\obj\Debug\netcoreapp3.1\ContactManager.DataStructures.dll
+C:\Users\afolabiba\Documents\GitHub\ContactManagerApplication\ContactManager\ContactManager.DataStructures\obj\Debug\netcoreapp3.1\ContactManager.DataStructures.pdb
