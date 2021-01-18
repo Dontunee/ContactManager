@@ -37,7 +37,6 @@ namespace ContactManager.DataStructures.Test
         [Fact]
         public void FindTest()
         {
-            DoublyLinkedList<int> numbers = new DoublyLinkedList<int>();
             numbers.AddHead(1);
             numbers.AddHead(2);
             numbers.AddHead(3);
@@ -47,6 +46,29 @@ namespace ContactManager.DataStructures.Test
 
             Assert.True(fourthNumber.nextNode.nodeValue == 4);
             Assert.True(fourthNumber != null);
+        }
+
+        [Fact]
+        public void ContainsTest()
+        {
+            Assert.True(numbers.Contains(1) is false);
+        }
+
+        [Fact]
+        public void RemoveTest()
+        {
+            numbers.AddHead(1);
+            numbers.Remove(1);
+            Assert.True(numbers.Head == null && numbers.Tail == null);
+            numbers.AddHead(2);
+            numbers.AddHead(3);
+            numbers.AddHead(4);
+            numbers.Remove(2);
+            Assert.True(numbers.Head.nodeValue == 4);
+            Assert.True(numbers.Tail.nodeValue == 3 );
+            numbers.AddTail(5);
+            numbers.Remove(4);
+            Assert.True(numbers.Head.nextNode.nodeValue == 5);
         }
     }
 }

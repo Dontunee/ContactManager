@@ -100,6 +100,12 @@ namespace ContactManager.DataStructures
             }
         }
 
+
+        /// <summary>
+        /// Finds the first node with the value that matches the input value and returns the node
+        /// </summary>
+        /// <param name="value"></param>
+        /// <returns></returns>
         public DoublyLinkedListNode<T> Find([NotNull] T value)
         {
             DoublyLinkedListNode<T> getCurrentHead = Head;
@@ -119,36 +125,141 @@ namespace ContactManager.DataStructures
             return null;
         }
 
+        /// <summary>
+        /// Checks if the NodeList contains a node with a value that matches the input value
+        /// </summary>
+        /// <param name="item"></param>
+        /// <returns></returns>
+
+        public bool Contains([NotNull] T item)
+        {
+            return Find(item) != null;
+        }
+
+
+        /// <summary>
+        /// Removes the first node with the value equal to the input value
+        /// </summary>
+        /// <param name="item"></param>
+        /// <returns></returns>
+        public bool Remove([NotNull] T item)
+        {
+            DoublyLinkedListNode<T> findValue = Find(item);
+            if (findValue is null)
+            {
+                return false;
+            }
+            else
+            {
+                var getNextNode = findValue.nextNode;
+                var getPreviousNode = findValue.previousNode;
+
+                if(getPreviousNode is null && getNextNode is null)
+                {
+                    Head = Tail = null;
+                    return true;
+                }
+                else
+                {
+                    if (getPreviousNode is null)
+                    {
+                        //we are removing the head
+                        //assign the next to become the head
+                        Head = getNextNode;
+
+                        if (Head != null)
+                        {
+                            //Ensure the previous is null since the next could have had a previous node
+                            Head.previousNode = null;
+                        }
+                    }
+                    else
+                    {
+                        //Previous isnt empty
+                        //Set the next node to become the one after the current Node
+                        //Set the previous node 
+                        getPreviousNode.nextNode = getNextNode;
+                        //getNextNode.previousNode = getPreviousNode;
+                    }
+
+                    if (getNextNode is null)
+                    {
+                        //We are removing the tail
+                        //Set Tail to be the previous node
+                        Tail = getPreviousNode;
+                        if (Tail != null)
+                        {
+                            //Set the next to be null to make it last node
+                            Tail.nextNode = null;
+                        }
+                    }
+                    else
+                    {
+                        //Not removing the tail
+                        //Set the previous node of the next node to be retrieved previous node
+                        getNextNode.previousNode = getPreviousNode;
+                    }
+
+                    Count--;
+                    return true;
+                }
+            }
+           
+        }
+
+        /// <summary>
+        /// Get Each value from the node list from the head
+        /// </summary>
+        /// <returns></returns>
+        public IEnumerator<T> GetEnumerator()
+        {
+            DoublyLinkedListNode<T> current = Head;
+            while (current != null)
+            {
+                yield return current.nodeValue;
+                current = current.nextNode;
+            }
+        }
+
+        /// <summary>
+        /// Enables compatibility with Icollection interfaces
+        /// </summary>
+        /// <returns></returns>
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
+
+
+        /// <summary>
+        /// Get each value from the node list from the Tail backward
+        /// </summary>
+        /// <returns></returns>
+        public IEnumerator<T> GetReverseEnumerator()
+        {
+            DoublyLinkedListNode<T> current = Tail;
+            while (current != null)
+            {
+                yield return current.nodeValue;
+                current = current.previousNode;
+            }
+        }
+
 
         public void Clear()
         {
             throw new NotImplementedException();
         }
 
-        public bool Contains(T item)
-        {
-            throw new NotImplementedException();
-        }
+        
 
         public void CopyTo(T[] array, int arrayIndex)
         {
             throw new NotImplementedException();
         }
 
-        public IEnumerator<T> GetEnumerator()
-        {
-            throw new NotImplementedException();
-        }
+       
 
-        public bool Remove(T item)
-        {
-            throw new NotImplementedException();
-        }
-
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            throw new NotImplementedException();
-        }
     }
 
 }

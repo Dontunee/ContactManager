@@ -13,3 +13,4 @@ C:\Users\afolabiba\Documents\GitHub\ContactManagerApplication\ContactManager\Con
 C:\Users\afolabiba\Documents\GitHub\ContactManagerApplication\ContactManager\ContactManager.DataStructures\obj\Debug\netcoreapp3.1\ContactManager.DataStructures.AssemblyInfo.cs
 C:\Users\afolabiba\Documents\GitHub\ContactManagerApplication\ContactManager\ContactManager.DataStructures\obj\Debug\netcoreapp3.1\ContactManager.DataStructures.dll
 C:\Users\afolabiba\Documents\GitHub\ContactManagerApplication\ContactManager\ContactManager.DataStructures\obj\Debug\netcoreapp3.1\ContactManager.DataStructures.pdb
+C:\Users\afolabiba\Documents\GitHub\ContactManagerApplication\ContactManager\ContactManager.DataStructures\obj\Debug\netcoreapp3.1\ContactManager.DataStructures.csprojAssemblyReference.cache
