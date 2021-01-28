@@ -28,6 +28,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.hangfire.io/nuget/hangfire-ace/v3/index.json": {},
           "https://pkgs.dev.azure.com/accessbank/_packaging/TamadaPackages%40Local/nuget/v3/index.json": {}
         },
         "frameworks": {
@@ -108,6 +109,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.hangfire.io/nuget/hangfire-ace/v3/index.json": {},
           "https://pkgs.dev.azure.com/accessbank/_packaging/TamadaPackages%40Local/nuget/v3/index.json": {}
         },
         "frameworks": {

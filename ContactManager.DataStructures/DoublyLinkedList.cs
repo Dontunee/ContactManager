@@ -51,10 +51,7 @@ namespace ContactManager.DataStructures
 
         public bool IsReadOnly => throw new NotImplementedException();
 
-        public void Add(T item)
-        {
-            throw new NotImplementedException();
-        }
+       
 
         /// <summary>
         /// Adds a node value  to become the head of the list (Beginning of the list)
@@ -156,6 +153,7 @@ namespace ContactManager.DataStructures
 
                 if(getPreviousNode is null && getNextNode is null)
                 {
+                    //Only one value exists so remove and make list empty
                     Head = Tail = null;
                     return true;
                 }
@@ -258,8 +256,10 @@ namespace ContactManager.DataStructures
             throw new NotImplementedException();
         }
 
-       
-
+        public void Add(T item)
+        {
+            throw new NotImplementedException();
+        }
     }
 
 }

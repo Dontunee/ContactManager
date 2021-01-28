@@ -9,4 +9,8 @@
     <ProjectReference Include="..\ContactManager.DataStructures\ContactManager.DataStructures.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
 </Project>
