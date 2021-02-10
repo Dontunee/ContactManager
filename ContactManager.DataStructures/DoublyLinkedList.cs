@@ -260,6 +260,30 @@ namespace ContactManager.DataStructures
         {
             throw new NotImplementedException();
         }
+
+        public bool GetHead(out T value)
+        {
+            value = (T)(object)Head;
+            return Head != null;
+        }
+
+        public void RemoveHead()
+        {
+            Remove(Head.nodeValue);
+        }
+
+        public bool GetTail(out T value)
+        {
+            value = (T)(object)Tail;
+            return Tail != null;
+        }
+
+        public void RemoveTail()
+        {
+            Remove(Tail.nodeValue);
+        }
+
+      
     }
 
 }
